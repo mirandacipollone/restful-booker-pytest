@@ -12,7 +12,7 @@ Git
 
 _**Installation**_
 
-**1.Clone the Repository **
+**1.Clone the Repository**
 
 git clone https://github.com/mirandacipollone/restful-booker-pytest.git 
 
