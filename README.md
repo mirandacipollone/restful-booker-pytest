@@ -10,13 +10,13 @@ Detailed HTML reports can be generated using [pytest-html](https://github.com/py
 Virtual Environment – Recommended for isolating dependencies.
 Git
 
-Installation
+_**Installation**_
 
-1.Clone the Repository 
+**1.Clone the Repository **
 
 git clone https://github.com/mirandacipollone/restful-booker-pytest.git 
 
-2.Create and Activate a Virtual Environment
+**2.Create and Activate a Virtual Environment**
 
 python3 -m venv venv
 
@@ -26,20 +26,20 @@ source venv/bin/activate
 Windows
 venv\Scripts\activate
 
-Install Dependencies
+**3.Install Dependencies**
 pip install -r requirements.txt
 
 
-Basic Test Run
+**Basic Test Run**
 
 pytest --maxfail=1 --disable-warnings -q
 
-Detailed Run with Logging and HTML Report
+**Detailed Run with Logging and HTML Report**
 
 pytest -s -v --log-cli-level=INFO --html=reports/report.html --self-contained-html
 
 
-Troubleshooting
+**Troubleshooting**
 	•	Module Not Found / Import Errors: Ensure your virtual environment is activated and dependencies are installed.
 	•	Environment Variables Not Loading: Confirm that the .env file exists and load_dotenv() is called in config.py.
 	•	Test Failures: Verify that endpoints, request methods, and headers are correct. Ensure no unwanted authentication is applied to public endpoints.
