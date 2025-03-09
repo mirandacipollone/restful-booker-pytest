@@ -40,7 +40,8 @@ pytest -s -v --log-cli-level=INFO --html=reports/report.html --self-contained-ht
 
 
 **Troubleshooting**
-	•	Module Not Found / Import Errors: Ensure your virtual environment is activated and dependencies are installed.
-	•	Environment Variables Not Loading: Confirm that the .env file exists and load_dotenv() is called in config.py.
-	•	Test Failures: Verify that endpoints, request methods, and headers are correct. Ensure no unwanted authentication is applied to public endpoints.
-	•	Missing Logs in HTML Report: Run tests with --log-cli-level=INFO or configure logging via pytest.ini.
+
+**Module Not Found / Import Errors**: Ensure your virtual environment is activated and dependencies are installed.
+**Environment Variables Not Loading**: Confirm that the .env file exists and load_dotenv() is called in config.py.
+**Test Failures**: Verify that endpoints, request methods, and headers are correct. Ensure no unwanted authentication is applied to public endpoints.
+**Missing Logs in HTML Report**: Run tests with --log-cli-level=INFO or configure logging via pytest.ini.
