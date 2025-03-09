@@ -7,8 +7,10 @@ Detailed HTML reports can be generated using [pytest-html](https://github.com/py
 
 ## Prerequisites - 
 **Python 3.7 or higher** – Verify by running:  python --version
-Virtual Environment – Recommended for isolating dependencies.
-Git
+
+**Virtual Environment** – Recommended for isolating dependencies.
+
+**Git**
 
 _**Installation**_
 
@@ -20,10 +22,12 @@ git clone https://github.com/mirandacipollone/restful-booker-pytest.git
 
 python3 -m venv venv
 
-macOS
+**macOS**
+
 source venv/bin/activate
 
-Windows
+**Windows**
+
 venv\Scripts\activate
 
 **3.Install Dependencies**
